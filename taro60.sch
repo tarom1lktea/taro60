@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:taro60-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1661,8 +1662,6 @@ Text GLabel 4350 3750 0    50   Input ~ 0
 ROW3
 Text GLabel 4350 4450 0    50   Input ~ 0
 ROW4
-Wire Wire Line
-	9000 1950 9000 2650
 Text GLabel 4950 950  1    50   Input ~ 0
 COL0
 Text GLabel 5400 950  1    50   Input ~ 0
@@ -1750,7 +1749,7 @@ U 1 1 6A782B19
 P 7500 4100
 F 0 "MX59" H 7533 4323 60  0000 C CNN
 F 1 "MX-NoLED" H 7533 4249 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-6.25U" H 6875 4075 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-6.25U-ReversedStabilizers-NoLED" H 6875 4075 60  0001 C CNN
 F 3 "" H 6875 4075 60  0001 C CNN
 	1    7500 4100
 	1    0    0    -1  
@@ -2394,5 +2393,45 @@ F 3 "" H 4175 1275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10800 950  1    50   Input ~ 0
+COL13
+Wire Wire Line
+	9000 1950 9000 2650
+Text GLabel 3500 2950 2    50   Input ~ 0
+ROW4
+Text GLabel 3500 3050 2    50   Input ~ 0
+COL0
+Text GLabel 3500 3150 2    50   Input ~ 0
+ROW3
+Text GLabel 3500 3250 2    50   Input ~ 0
+COL1
+Text GLabel 3500 4150 2    50   Input ~ 0
+ROW2
+Text GLabel 3500 4250 2    50   Input ~ 0
+ROW1
+Text GLabel 3500 4350 2    50   Input ~ 0
+ROW0
+Text GLabel 3500 4450 2    50   Input ~ 0
+COL2
+Text GLabel 3500 4650 2    50   Input ~ 0
+COL3
+Text GLabel 3500 4550 2    50   Input ~ 0
+COL4
+Text GLabel 3500 4750 2    50   Input ~ 0
+COL5
+Text GLabel 3500 4850 2    50   Input ~ 0
+COL6
+Text GLabel 3500 3350 2    50   Input ~ 0
+COL7
+Text GLabel 3500 3450 2    50   Input ~ 0
+COL8
+Text GLabel 3500 3550 2    50   Input ~ 0
+COL9
+Text GLabel 3500 3850 2    50   Input ~ 0
+COL10
+Text GLabel 3500 3950 2    50   Input ~ 0
+COL11
+Text GLabel 3500 5850 2    50   Input ~ 0
+COL12
+Text GLabel 3500 5750 2    50   Input ~ 0
 COL13
 $EndSCHEMATC
